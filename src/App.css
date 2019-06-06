@@ -1,6 +1,11 @@
 .App {
   text-align: center;
+  min-height:100vh;
+  background-color:#282c34;
+  padding-top: 30px;  
+
 }
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -8,15 +13,88 @@
   pointer-events: none;
 }
 
+.image{
+  
+  height:34vh;
+  width:85vh;
+}
+
+.profile{
+  
+  text-align: left;
+  margin-left:40px;
+  border-radius:50%;
+  margin-top:30px;
+  padding-bottom:15px;
+  margin-right:10px;
+}
+
+.imageTextBod{
+  height:52vh;
+  width:85vh;
+  margin-left:50px;
+  border-bottom: 0.5px solid gray; 
+  border-left: 0.1px solid gray;
+  border-right:0.1px solid gray;
+}
+
+.text1{
+  font-family: Arial;
+  font-size:20px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.text2{
+  font-family:Arial;
+  font-size:15px;
+  margin-top:50px;
+  text-align: left;
+  margin-left:10px;
+}
+
+.text3{
+  font-size:20px;
+  font-weight: bold;
+  text-align:left;
+  margin-right:30px;
+  margin-top:50px;
+  
+
+}
+
+.text4{
+  font-size: 15px;
+  font-family: Arial;
+  font-weight:normal;
+  opacity:0.6;
+
+
+}
+
+.text5{
+  font-size:13px;
+  margin-left:10px;
+  opacity: 0.7;
+  text-decoration: none;
+}
+
+.icons{
+  margin-left:30px;
+}
+
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  background-color: #ffffff;
+  min-height: 80vh;
   flex-direction: column;
   align-items: center;
+  text-align:left;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
+  margin-top: 100px;
+  width: 100vh;
+  margin-left: 50vh;
 }
 
 .App-link {
